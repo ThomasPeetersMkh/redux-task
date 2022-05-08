@@ -1,0 +1,31 @@
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  background-color: lightgrey;
+  font-family: Roboto;
+  header {
+    background-color: darkred;
+    padding: 12px;
+    .header__title {
+      color: white;
+      font-size: 35px;
+    }
+  }
+  form {
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+  }
+  ul {
+    li {
+      padding: 10px;
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      .block {
+        width: 100px;
+        height: 15px;
+      }
+    }
+  }
+}
